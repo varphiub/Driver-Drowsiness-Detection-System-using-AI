@@ -330,8 +330,8 @@ def head():
         if x_movement > gesture_threshold:
             gesture = 'Not detected'
         if y_movement > gesture_threshold:
-            account_sid = "ACf20e762abf8fd57608869e3f12c50ad6"
-            auth_token  = "a91edefee168a50fc40a04493bcc6f39"
+            account_sid = "jkjdsnbhbdcnjsm"
+            auth_token  = "a91edefee168djnd9"
             client = Client(account_sid, auth_token)
             message = client.messages.create(
                 to="+918792631321",
@@ -369,3 +369,4 @@ loginbt.place(x =225 ,y=350)
 signUpbt.place( x =550,y=350)
 #loginbt1.place( x =350,y=550)   
 R1.mainloop()
+
